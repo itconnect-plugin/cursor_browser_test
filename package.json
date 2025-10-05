@@ -1,0 +1,29 @@
+{
+  "name": "react-todo-app",
+  "version": "1.0.0",
+  "description": "React로 만든 할 일 관리 앱",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server -p 5001",
+    "dev": "npx http-server -p 5001"
+  },
+  "keywords": ["react", "todo", "task-management"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "@playwright/test": "^1.40.0"
+  },
+  "scripts": {
+    "start": "npx http-server -p 5001",
+    "dev": "npx http-server -p 5001",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug"
+  }
+}
